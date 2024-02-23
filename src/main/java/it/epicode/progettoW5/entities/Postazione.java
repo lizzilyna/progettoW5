@@ -3,6 +3,7 @@ package it.epicode.progettoW5.entities;
 import jakarta.persistence.*;
 import lombok.Data;
 
+@Entity
 @Data
 public class Postazione {
     @Id
